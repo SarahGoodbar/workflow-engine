@@ -1,0 +1,56 @@
+System: Cognitive Productivity Workflow Engine
+├── User Interface Layer (Cross-cutting)
+│   ├── Input Interfaces (Capture, Processing, Scheduling)
+│   └── Execution Interfaces (Work Sessions, Tool UIs, Closure Prompts)
+│
+├── Capture Module
+│   ├── All-Source Capture Component
+│   ├── Disruption Check Component
+│   └── Process Bypass Sorter
+│
+├── Processing Module (Pipeline Architecture)
+│   ├── Tier 1: Initial Sorting & Pattern Recognition
+│   │   ├── Pattern Matching (with User Confirmation)
+│   │   ├── Novel Item Evaluation (User-Driven Categorization)
+│   │   └── Disruption Processing Tool
+│   ├── Tier 2: Execution-Type Routing
+│   │   ├── Kanban / Project Workflows
+│   │   ├── Context-Based Lists
+│   │   ├── On-Hold with Next Action
+│   │   └── Major Decision Support
+│   └── Tier 3: Specialized Processing
+│       ├── Disagreeable Task Handling (Batching, Bursts, Rewards)
+│       ├── Dash Tasks
+│       └── Motivation-Based Execution Strategies
+│
+├── Scheduler Module
+│   ├── Regular Scheduling Logic (Time Blocks, Focus Types)
+│   ├── Disruption Scheduling (Override/Repair Workflows)
+│   └── Session Triggers & Review Prompts
+│
+├── Implementation Module
+│   ├── Work Session Interface
+│   │   └── Task Navigation, Execution Routing, Session Timing
+│   ├── Execution Tool Library
+│   │   ├── Kanban Board
+│   │   ├── Contextual Lists
+│   │   ├── Decision Support Tools
+│   │   ├── Writing/Planning Interfaces
+│   │   └── System Maintenance Tools (Review, Cleanup, Tag Manager)
+│   ├── Task State Resources
+│   │   ├── On-Hold Lists
+│   │   ├── Context Lists
+│   │   ├── Template Tasks / Reference Tasks
+│   │   └── Deferred / Snoozed Items
+│   └── Feedback & Closure Module
+│       ├── Task Completion & Reintegration
+│       ├── Follow-up Generation
+│       ├── Task Outcome Storage
+│       └── Reentry into Capture or Scheduler
+│
+└── External Systems (Prompted, Not Integrated)
+    ├── Email Clients (e.g., Gmail, Outlook)
+    ├── File Systems (Local, Cloud, SharePoint)
+    ├── Project Boards (e.g., Jira, Trello)
+    ├── Calendars (Google Calendar, Outlook)
+    └── Other Task Systems (Manual or Integrated)
